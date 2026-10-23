@@ -386,7 +386,13 @@ def yukle():
         torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
         device_map="auto", trust_remote_code=True,
     )
-    model = PeftModel.from_pretrained(base, LORA_PATH, is_local_path=True)
+    
+    
+    # değişti LoRA yolunu mutlak yola (absolute path) çeviriyoruz ki peft kütüphanesi bunu yerel klasör olarak bilsin
+    abs_lora_path = os.path.abspath(LORA_PATH)
+    model = PeftModel.from_pretrained(base, abs_lora_path)
+    # ----------------------------
+    
     model.eval()
 
     print("🧭 Embedding modeli yükleniyor...")
