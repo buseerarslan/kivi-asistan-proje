@@ -390,7 +390,7 @@ def yukle():
     
     # değişti LoRA yolunu mutlak yola (absolute path) çeviriyoruz ki peft kütüphanesi bunu yerel klasör olarak bilsin
     abs_lora_path = os.path.abspath(LORA_PATH)
-    model = PeftModel.from_pretrained(base, abs_lora_path)
+    mmodel = PeftModel.from_pretrained(base, abs_lora_path, is_local_path=True)
     # ----------------------------
     
     model.eval()
