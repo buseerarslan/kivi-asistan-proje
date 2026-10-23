@@ -1,0 +1,14 @@
+soru,beklenen_cevap,kaynak
+Kargo ücreti ne kadar?,1.000 TL altı siparişte 79 TL; 1.000 TL ve üzeri ücretsiz.,Kargo
+Aldığım ürünü kaç gün içinde geri gönderebilirim?,Teslimden itibaren 14 gün.,İade
+"Kulaklığın paketini açtım, iade edebilir miyim?",Hayır; ambalajı açılmış kulaklık hijyen nedeniyle iade edilemez.,İade
+"Paket ezik geldi, ne yapmalıyım?","Görevlinin yanında kontrol, hasar tespit tutanağı, teslim almamak; tutanaksızsa 48 saat içinde fotoğrafla bildirim.",Teslimatta kontrol
+9 taksit yapıyor musunuz?,"Anlaşmalı kartlara, yalnızca 10.000 TL ve üzeri siparişlerde.",Ödeme seçenekleri
+Koruma paketi telefon çalınırsa geçerli mi?,"Hayır, hırsızlık ve kayıp kapsam dışı.",Kivi Koruma Paketi
+Puanlarım ne zaman siliniyor?,Puanlar 12 ay geçerli.,Kupon ve Kivi Puan
+Televizyonu duvara siz mi asıyorsunuz?,"Evet, duvar montajı 750 TL, siparişte eklenir.",Kurulum hizmeti
+Müşteri hizmetlerine hangi saatlerde ulaşabilirim?,Her gün 08:00-24:00.,İletişim ve teslim noktaları
+"Pixa 65 inç OLED Televizyon kaç para, stokta var mı?",64.999 TL; stokta yok (0).,tablo: urunler.csv
+Aero 14 Dizüstü Bilgisayardan iki tane alırsam ne öderim?,2 x 38.499 = 76.998 TL (kargo ücretsiz).,tablo + hesap
+Eski telefonumu takasa alıyor musunuz?,Rehberde yok; uydurmamalı.,yok
+Yurt dışına gönderim yapıyor musunuz?,Rehberde yok; uydurmamalı.,yok

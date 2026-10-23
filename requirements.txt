@@ -1,0 +1,11 @@
+transformers
+peft
+torch
+gradio
+langchain
+langchain-community
+langchain-text-splitters
+chromadb
+pypdf
+sentence-transformers
+pandas

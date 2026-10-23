@@ -1,0 +1,42 @@
+
+# Python cache ve geçici dosyalar
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Sanal ortamlar
+.venv/
+venv/
+env/
+
+# VS Code ve işletim sistemi
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Gradio geçici dosyaları
+.gradio/
+
+# Gizli bilgiler ve API anahtarları
+.env
+.env.*
+!.env.example
+
+# Model ağırlıkları ve eğitim çıktıları
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.model
+*.h5
+
+# Model ve eğitim önbellekleri
+.cache/
+huggingface_cache/
+wandb/
+
+# Büyük eğitim ve model çıktı klasörleri
+KIVI_merged_model/
+kivi_asistan_lora/
