@@ -39,4 +39,4 @@ wandb/
 
 # Büyük eğitim ve model çıktı klasörleri
 KIVI_merged_model/
-kivi_asistan_lora/
+# kivi_asistan_lora/
