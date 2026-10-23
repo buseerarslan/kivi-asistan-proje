@@ -386,7 +386,7 @@ def yukle():
         torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
         device_map="auto", trust_remote_code=True,
     )
-    model = PeftModel.from_pretrained(base, LORA_PATH)
+    model = PeftModel.from_pretrained(base, LORA_PATH, is_local_path=True)
     model.eval()
 
     print("🧭 Embedding modeli yükleniyor...")
