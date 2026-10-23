@@ -25,7 +25,7 @@ import pandas as pd
 
 # ============================== CONFIG ==============================
 BASE_MODEL = "Qwen/Qwen2.5-1.5B-Instruct"
-LORA_PATH = "./kivi_asistan_lora"
+LORA_PATH = "kivi_asistan_lora"
 EMBED_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"  # Türkçe destekli
 REHBER_PDF = "rehber.pdf"
 URUN_CSV = "urunler.csv"
@@ -390,7 +390,7 @@ def yukle():
     
     # değişti LoRA yolunu mutlak yola (absolute path) çeviriyoruz ki peft kütüphanesi bunu yerel klasör olarak bilsin
     abs_lora_path = os.path.abspath(LORA_PATH)
-    mmodel = PeftModel.from_pretrained(base, abs_lora_path, is_local_path=True)
+    model = PeftModel.from_pretrained(base, LORA_PATH)
     # ----------------------------
     
     model.eval()
